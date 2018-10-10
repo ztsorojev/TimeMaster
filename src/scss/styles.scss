@@ -1,0 +1,190 @@
+/*@font-face {
+    font-family: FuturaMD_BT;
+    src: url("./fonts/Futura-medium-bt.ttf");
+}*/
+
+/* =======================================================
+*
+*
+* ======================================================= */
+
+body {
+	color: #435A63 !important;
+	background-color: #F5FAE3 !important;
+}
+
+.logo {
+	//font-family: FuturaMD_BT;
+	color: #435A63;
+}
+
+.burger {
+	outline: none !important;
+    border: 1px solid white !important;
+    i {
+	   color: white;
+    }
+}
+
+/* Full-width input fields */
+textarea {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type=time], select {
+	padding: 6px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.itemTask {
+	display : inline-flex;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	margin-bottom: 80px;
+	width: 100%;
+    p {
+	   margin: 0 20px;
+    }
+}
+
+.timeLabels {
+	font-size: 20px;
+    margin: 10px;
+}
+
+.priority-high,
+.priority-medium,
+.priority-low {
+    border-radius: 5px;
+    height: 25px;
+    padding: 0 5px;
+    color: #F5FAE3;
+}
+
+.priority-high {
+    background-color: #F9476D;
+}
+
+.priority-medium {
+    background-color: #FE886A;
+}
+
+.priority-low {
+    background-color: #7AE8BE;
+}
+
+.itemIcons {
+	font-size: 20px !important;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #435a63;
+    outline: none;
+    &:hover {
+	   color: #73aca5;
+    }
+}
+
+.modal-task {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-task-content {
+    background-color: #fefefe;
+    box-shadow: 0px 2px 5px 0px #00000042;
+    margin: 5% auto 15% auto; 
+    padding-bottom: 30px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.modal-task-top {
+    text-align: center;
+    position: relative;
+}
+
+/* The Close Button (x) */
+.closeBtn {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: #45b5ff;
+    cursor: pointer;
+}
+
+.submitBtn {
+	width: 20%;
+	background-color: #16f7b8;
+	border-radius: 2px;
+	border: 1px solid #16f7b8;
+	outline: none;
+	color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+    	background-color: transparent;
+    	color: #16f7b8;
+    	border: 1px solid #16f7b8;
+    	outline: none;
+    }
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+.buttonPlus {
+	width:auto;
+	border-radius: 100%;
+	font-weight: bold;
+	background-color: #45b5ff;
+	outline: none !important;
+	color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+	   background-color: #25ffd4;
+    }
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
