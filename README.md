@@ -6,6 +6,11 @@
 The web app was built using Bootstrap and JavaScript.
 I used Webpack and Babel to compile JavaScript ES6 and SCSS.
 
+![Alt text](https://github.com/ztsorojev/TimeMaster/blob/master/src/img/Home.PNG)
+![Alt text](https://github.com/ztsorojev/TimeMaster/blob/master/src/img/New_task.PNG)
+
+
+
 ## How to run the web app
 
 First, make sure you have Node.js installed on your computer so you can use npm.
