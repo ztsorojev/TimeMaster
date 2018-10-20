@@ -3,6 +3,9 @@
 
 **Video demo:** https://www.youtube.com/watch?v=gDVuontuZ8Y
 
+**Languages:** HTML, SCSS, JavaScript ES6, jQuery <br />
+**Tools:** Webpack, Babel, npm
+
 The web app was built using Bootstrap and JavaScript.
 I used Webpack and Babel to compile JavaScript ES6 and SCSS.
 
